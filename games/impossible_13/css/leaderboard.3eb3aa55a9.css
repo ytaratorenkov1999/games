@@ -1,0 +1,379 @@
+/* Leaderboard Screen Styles */
+.leaderboard-screen {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	visibility: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
+	opacity: 0;
+	pointer-events: none;
+	transition:
+		opacity 0.2s ease,
+		visibility 0.2s ease;
+	cursor: pointer; /* Make backdrop clickable */
+}
+
+.leaderboard-screen.visible {
+	visibility: visible;
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.leaderboard-screen__container {
+	background-color: #ffffff;
+	border-radius: 20px;
+	width: 90%;
+	max-width: 500px;
+	max-height: 80vh;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+	transform: translateY(10vh);
+	transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+	cursor: default; /* Reset cursor for container */
+	/* Prevent text selection and context menu on mobile */
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-touch-callout: none;
+}
+
+.leaderboard-screen.visible .leaderboard-screen__container {
+	transform: translateY(0);
+}
+
+.leaderboard-screen__header {
+	padding: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid #dddddd;
+	position: relative;
+}
+
+.leaderboard-screen__title {
+	font-size: 24px;
+	font-weight: bold;
+	color: #333333;
+	margin: 0;
+	text-align: center;
+}
+
+.leaderboard-screen__close-button {
+	position: absolute;
+	right: 16px;
+	background: none;
+	border: none;
+	font-size: 24px;
+	color: #333333;
+	cursor: pointer;
+	padding: 0;
+	width: 32px;
+	height: 32px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	transition: background-color 0.2s ease;
+}
+
+.leaderboard-screen__close-button:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.leaderboard-screen__tabs {
+	display: flex;
+	justify-content: center;
+	padding: 20px 16px;
+	gap: 8px;
+	background-color: #f5f5f5;
+    border-bottom: 1px solid #dddddd;
+}
+
+.leaderboard-screen__tab-button {
+	flex: 1;
+	max-width: 160px;
+	padding: 8px 24px;
+	background: none;
+	border: none;
+	font-family: 'Nunito', sans-serif !important;
+	font-size: 16px;
+	font-weight: 500;
+	color: #666666;
+	cursor: pointer;
+	position: relative;
+	transition: all 0.2s ease;
+	border-radius: 100px;
+	text-align: center;
+	/* Remove focus/tap highlights */
+	outline: none;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	user-select: none;
+	/* Ensure text stays on one line */
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/* Remove focus styles for all states */
+.leaderboard-screen__tab-button:focus,
+.leaderboard-screen__tab-button:active,
+.leaderboard-screen__tab-button:focus-visible {
+	outline: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.leaderboard-screen__tab-button:hover {
+	color: #f29100;
+	background-color: rgba(242, 145, 0, 0.1);
+}
+
+.leaderboard-screen__tab-button.active {
+	color: #ffffff;
+	background-color: #f29100;
+}
+
+.leaderboard-screen__tab-button.active::after {
+	display: none;
+}
+
+.leaderboard-screen__content {
+	height: 500px;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+}
+
+.leaderboard-screen__tab-content {
+	display: none;
+	padding: 0;
+	height: 100%;
+	position: relative;
+}
+
+.leaderboard-screen__tab-content.active {
+	display: block;
+}
+
+.leaderboard-screen__entries {
+	padding: 0;
+	height: 100%;
+	overflow-y: auto;
+	/* Hide scrollbar for Chrome, Safari and Opera */
+	&::-webkit-scrollbar {
+		display: none;
+	}
+	/* Hide scrollbar for IE, Edge and Firefox */
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+.leaderboard-screen__entry {
+	display: flex;
+	align-items: center;
+	padding: 12px 16px;
+	border-bottom: 1px solid #eeeeee;
+	transition: background-color 0.2s ease;
+}
+
+.leaderboard-screen__entry__first {
+	border-top: 1px solid #eeeeee;
+}
+
+.leaderboard-screen__entry:hover {
+	background-color: #eeeeee7e;
+}
+
+.leaderboard-screen__entry.is-current-player {
+	background-color: rgba(242, 145, 0, 0.1);
+	/* font-weight: bold; */
+}
+
+.leaderboard-screen__separator {
+	text-align: center;
+	padding: 8px;
+	color: #999999;
+	background-color: #f5f5f5;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.leaderboard-screen__rank {
+	width: 60px;
+	font-weight: bold;
+	/* color: #f29100; */
+	text-align: center;
+}
+
+.leaderboard-screen__avatar {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 0 12px;
+}
+
+.leaderboard-screen__avatar img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.leaderboard-screen__username-container {
+	flex: 1;
+	max-width: calc(100% - 140px); /* Account for rank width (60px) and score width (~80px) */
+	margin-right: 12px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.leaderboard-screen__username {
+	font-size: 14px;
+	color: #333333;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.leaderboard-screen__timestamp {
+	font-size: 13px;
+	color: #999999;
+	margin-top: 2px;
+}
+
+.leaderboard-screen__score {
+	font-size: 14px;
+	font-weight: bold;
+	/* color: #0aa9f4; */
+    text-align: right;
+    min-width: 60px; /* Ensure consistent width for score column */
+}
+
+.leaderboard-screen__loading {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffffff;
+	color: #666666;
+	text-align: center;
+	flex-direction: column;
+}
+
+.leaderboard-screen__error {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffffff;
+	color: #ff3333;
+	text-align: center;
+	padding: 0 24px;
+}
+
+.leaderboard-screen__footer {
+	padding: 12px 16px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-top: 1px solid #dddddd;
+	background-color: #f9f9f9;
+}
+
+.leaderboard-screen__player-rank {
+	font-size: 14px;
+	color: #333333;
+}
+
+.leaderboard-screen__player-rank-label {
+	margin-right: 4px;
+}
+
+.leaderboard-screen__player-rank-value {
+	font-weight: bold;
+	color: #f29100;
+}
+
+/* Loading spinner animation */
+@keyframes leaderboard-loading-spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.leaderboard-screen__loading::before {
+	content: '';
+	display: block;
+	width: 24px;
+	height: 24px;
+	border: 3px solid #f3f3f3;
+	border-top: 3px solid #f29100;
+	border-radius: 50%;
+	margin-bottom: 12px;
+	animation: leaderboard-loading-spin 1s linear infinite;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+	.leaderboard-screen__container {
+		width: 95%;
+	}
+
+	.leaderboard-screen__content {
+		height: 400px; /* Slightly smaller height for mobile */
+	}
+
+	.leaderboard-screen__title {
+		font-size: 20px;
+	}
+
+	.leaderboard-screen__tabs {
+		padding: 16px;
+		gap: 6px;
+	}
+
+	.leaderboard-screen__tab-button {
+		padding: 8px 12px;
+		font-size: 14px;
+		max-width: 120px;
+	}
+
+	.leaderboard-screen__entry {
+		padding: 10px 12px;
+	}
+
+	.leaderboard-screen__rank {
+		width: 40px;
+	}
+
+	.leaderboard-screen__avatar {
+		width: 32px;
+		height: 32px;
+		margin: 0 8px;
+	}
+
+	.leaderboard-screen__username-container {
+		max-width: calc(100% - 120px); /* Adjust for smaller rank width (40px) and score width (~80px) */
+	}
+}
