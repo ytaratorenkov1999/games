@@ -1,0 +1,145 @@
+.error-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(220, 53, 69, 0.8); Reddish semi-transparent backdrop */
+    background-color: rgba(0, 0, 0, 0.8); /* Reddish semi-transparent backdrop */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    font-family: 'Nunito', sans-serif;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.error-screen.visible {
+    opacity: 1;
+    pointer-events: auto;
+    animation: fade-in 0.15s ease-out;
+}
+
+.error-screen__container {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    padding-top: 10px;
+    max-width: 400px;
+    min-width: 300px;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    transform: translateY(0);
+    animation: pop-in 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.error-screen__icon {
+    margin-bottom: 15px;
+    animation: pulse 2s infinite ease-in-out;
+}
+
+.error-screen__title {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #ff3333;
+    font-weight: bold;
+}
+
+.error-screen__divider {
+    width: 80%;
+    margin: 0 auto 20px;
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, transparent, rgba(255, 51, 51, 0.5), transparent);
+}
+
+.error-screen__message {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.error-screen__button {
+    background-color: #ff3333;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-weight: bold;
+    box-shadow: 0 4px 0 #cc0000;
+    position: relative;
+    top: 0;
+}
+
+.error-screen__button:hover {
+    background-color: #ff5555;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 0 #cc0000;
+}
+
+.error-screen__button:active {
+    background-color: #cc0000;
+    transform: translateY(2px);
+    box-shadow: 0 2px 0 #990000;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes pop-in {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media (max-width: 480px) {
+    .error-screen__container {
+        max-width: 80%;
+        min-width: unset;
+        padding: 20px;
+    }
+    
+    .error-screen__title {
+        font-size: 24px;
+    }
+    
+    .error-screen__message {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    
+    .error-screen__button {
+        padding: 12px 24px;
+        font-size: 16px;
+    }
+} 

@@ -1,7 +1,7 @@
 (() => {
     "use strict";
 
-    const SLIDER_GAME_INDEXES = [16, 12, 9, 19, 17];
+    const SLIDER_GAME_INDEXES = [16, 12, 9, 19, 17, 22];
 
     const e = document.querySelector(".swiper-wrapper"),
         t = document.querySelector(".cards"),
@@ -848,6 +848,206 @@
             ko: {
                 title: "백개먼",
                 desc: "2인용 게임입니다. 주사위를 굴리고 나온 숫자에 따라 말을 이동하여, 상대보다 먼저 자신의 모든 말을 목표 구역으로 옮기는 것이 목표입니다."
+            }
+        }, {
+            index: 20,
+            name: "find_the_pets",
+            rate: 6,
+            ru: {
+                title: "Найди Питомцев",
+                desc: "Добро пожаловать в мир увлекательных приключений! Ищите спрятанных питомцев в самых неожиданных и труднодоступных местах. В игре 150 питомцев и 6 карт из разных миров. Каждая карта отличается дизайном, препятствиями и новыми испытаниями!"
+            },
+            en: {
+                title: "Find Pets",
+                desc: "Welcome to a world of exciting adventures! Search for hidden pets in the most unexpected and hard-to-reach places.The game features 150 pets and 6 maps from different worlds. Each map has its own unique design, obstacles, and new challenges!"
+            },
+            de: {
+                title: "Finde Haustiere",
+                desc: "Willkommen in der Welt spannender Abenteuer! Suche nach versteckten Haustieren an den unerwartetsten und schwer zugänglichen Orten. Das Spiel umfasst 150 Haustiere und 6 Karten aus verschiedenen Welten. Jede Karte besticht durch ihr einzigartiges Design, ihre Hindernisse und neue Herausforderungen!"
+            },
+            fr: {
+                title: "Trouve les animaux de compagnie",
+                desc: "Bienvenue dans un univers d'aventures passionnantes ! Cherchez des animaux cachés dans les endroits les plus inattendus et les plus difficiles d'accès. Le jeu propose 150 animaux de compagnie et 6 cartes de divers univers. Chaque carte se distingue par son design, ses obstacles et ses nouveaux défis !"
+            },
+            it: {
+                title: "Trova gli animali domestici",
+                desc: "Benvenuto nel mondo delle avventure emozionanti! Cerca gli animali domestici nascosti nei posti più inaspettati e difficili da raggiungere. Nel gioco ci sono 150 animali domestici e 6 mappe da mondi diversi. Ogni mappa ha un design unico, ostacoli e nuove sfide!"
+            },
+            es: {
+                title: "Encontrar a las mascotas",
+                desc: "¡Bienvenido a un mundo de emocionantes aventuras! Busca a las mascotas escondidas en los sitios más inesperados y de difícil acceso. En el juego encontrarás 150 mascotas y 6 mapas de distintos mundos. ¡Cada mapa tiene su propio diseño, obstáculos y nuevos desafíos!"
+            },
+            zh: {
+                title: "寻找宠物",
+                desc: "欢迎来到充满惊喜的冒险世界！在各种意想不到的角落寻找隐藏宠物。 游戏包含150只宠物与6张来自不同世界的地图。每一张地图都有独特风格、障碍设计与全新挑战！"
+            },
+            ja: {
+                title: "ペットを探そう",
+                desc: "ワクワクする冒険の世界へようこそ！思いもよらない場所や見つけにくい場所に隠れたペットたちを探しましょう。 150匹のペットと、異なる世界をテーマにした6つのマップを収録。各マップには独自のデザインや障害物、新たなチャレンジが待っています！"
+            },
+            ko: {
+                title: "반려동물 찾기",
+                desc: "흥미진진한 모험의 세계에 오신 것을 환영합니다! 상상치 못한 기쇵천외한 곳이나 접근하기 어려운 곳에 숨어 있는 반려동물들을 찾아보세요. 이 게임에는 150종의 반려동물과 다양한 세계에 속한 6개의 맵이 등장합니다. 각 맵마다 고유한 디자인, 장애물, 새로운 도전 과제가 여러분을 기다리고 있습니다!"
+            }
+        }, {
+            index: 21,
+            name: "froggy_find",
+            rate: 6,
+            ru: {
+                title: "Найди Лягушку: Поиск Предметов",
+                desc: "Отправляйтесь в расслабляющее путешествие по красочным локациям и находите спрятанных лягушек на каждом уровне. Вас ждут уютная ферма, загадочное болото, шумный город, мистический лес, солнечный пляж и пиратские острова."
+            },
+            en: {
+                title: "Find the Frog: Hidden Object Game",
+                desc: "Embark on a relaxing journey through colorful locations and find the hidden frogs on each level. A cozy farm, a mysterious swamp, a bustling city, a mystical forest, a sunny beach, and pirate islands await you."
+            },
+            de: {
+                title: "Finde den Frosch: Wimmelbildspiel",
+                desc: "Begib dich auf eine entspannende Reise durch farbenfrohe Schauplätze und finde in jedem Level die versteckten Frösche. Es erwarten dich eine gemütliche Farm, ein geheimnisvoller Sumpf, eine geschäftige Stadt, ein mystischer Wald, ein sonniger Strand und Pirateninseln."
+            },
+            fr: {
+                title: "Trouve la grenouille : jeu d'objets cachés",
+                desc: "Partez en voyage relaxant à travers des lieux hauts en couleur et trouvez des grenouilles cachées à chaque niveau. Une ferme mignonne, un marais mystérieux, une ville animée, une forêt envoûtante, une plage ensoleillée et des îles de pirates vous attendent."
+            },
+            it: {
+                title: "Find the Frog: Hidden Objects",
+                desc: "Parti per un viaggio rilassante tra luoghi colorati e trova le rane nascoste in ogni livello. Ti aspettano una fattoria accogliente, una palude misteriosa, una città vivace, una foresta mistica, una spiaggia soleggiata e isole dei pirati."
+            },
+            es: {
+                title: "Encontrar a la rana: Búsqueda de objetos",
+                desc: "Embárcate en un relajante viaje por coloridos escenarios y encuentra las ranas escondidas en cada nivel. Te esperan una acogedora granja, un misterioso pantano, una bulliciosa ciudad, un bosque místico, una soleada playa e islas piratas."
+            },
+            zh: {
+                title: "找青蛙：隐藏物品大搜索",
+                desc: "开启一段轻松治愈的寻物冒险。在不同主题场景中寻找隐藏的青蛙：宁静农场、神秘沼泽、繁华城市、魔法森林、阳光海滩和海盗群岛，每一关都是全新体验。"
+            },
+            ja: {
+                title: "カエルを探せ：アイテム探し",
+                desc: "色鮮やかなロケーションを巡る癒しの旅に出て、各ステージで隠れたカエルを見つけましょう。のどかな農場、不気味な沼地、にぎやかな街、神秘の森、太陽輝くビーチ、そして海賊の島々があなたを待っています。"
+            },
+            ko: {
+                title: "개구리 찾기: 숨은 그림 찾기",
+                desc: "다채로운 맵으로 편안한 여행을 떠나 각 레벨에서 숨겨진 개구리들을 찾아보세요. 아늑한 농장, 신비로운 늪지대, 활기 넘치는 도시, 신비로운 숲, 햇살 가득한 해변, 그리고 해적 섬까지 여러분을 기다리고 있습니다."
+            }
+        }, {
+            index: 22,
+            name: "bouncy_woods",
+            rate: 16,
+            ru: {
+                title: "Bouncy Woods",
+                desc: "Красочная аркадная головоломка, где нужно разрушать блоки и собирать уток. Проходите уровни, используйте бонусы, открывайте новые миры и находите лучший способ очистить поле за ограниченное количество ходов!"
+            },
+            en: {
+                title: "Bouncy Woods",
+                desc: "A colorful arcade puzzle game where you have to destroy blocks and collect ducks. Complete levels, use power-ups, unlock new worlds, and find the best way to clear the board in a limited number of moves!"
+            },
+            de: {
+                title: "Bouncy Woods",
+                desc: "Ein farbenfrohes Arcade-Rätselspiel, bei dem man Blöcke zerstören und Enten einsammeln muss. Spiele die Level durch, nutze die Boni, erschließe neue Welten und finde den besten Weg, das Spielfeld innerhalb einer begrenzten Anzahl von Zügen abzuräumen!"
+            },
+            fr: {
+                title: "Bouncy Woods",
+                desc: "Un jeu d'arcade haut en couleurs et plein de casse-tête, où il faut détruire des blocs et collecter des canards. Passez des niveaux, utilisez des bonus, découvrez de nouveaux mondes et trouvez la meilleure façon de vider le plateau en un nombre limité de coups !"
+            },
+            it: {
+                title: "Bouncy Woods",
+                desc: "Un colorato rompicapo arcade dove devi distruggere blocchi e raccogliere anatre. Supera i livelli, usa bonus, sblocca nuovi mondi e trova il modo migliore per liberare il campo con mosse limitate!"
+            },
+            es: {
+                title: "Bouncy Woods",
+                desc: "Un colorido arcade-puzzle donde debes destruir bloques y recoger patos. ¡Completa los niveles, usa las bonificaciones, descubre nuevos mundos y encuentra la mejor forma de despejar el tablero en un número limitado de movimientos!"
+            },
+            zh: {
+                title: "弹跳森林",
+                desc: "这是一款轻松上手的消除类益智游戏。破坏方块，收集小鸭，完成关卡目标。合理使用道具，在限定步数内清理棋盘，挑战最佳通关策略！"
+            },
+            ja: {
+                title: "バウンシーウッズ",
+                desc: "ブロックを壊してアヒルを集めるカラフルなアーケードパズル！ステージをクリアし、ボーナスを使い、新しい世界を開放しましょう。限られた手数で盤面をきれいにする最善の方法を見つけてください！"
+            },
+            ko: {
+                title: "Bouncy Woods",
+                desc: "블록을 부수고 오리를 수집하는 다채로운 아케이드 퍼즐 게임입니다. 레벨을 클리어하고 보너스를 활용하여 새로운 세계에 진입해 제한된 턴 수 안에 보드에서 모든 블록을 제거할 수 있는 최선의 방법을 찾아보세요!"
+            }
+        }, {
+            index: 23,
+            name: "Impossible_13",
+            rate: 6,
+            ru: {
+                title: "Impossible 13 ",
+                desc: "Логическая головоломка, где нужно объединять одинаковые числа и стремиться получить число 13. Соединяйте группы одинаковых кругов, продумывайте комбинации и используйте стратегию, чтобы достичь главной цели!"
+            },
+            en: {
+                title: "Impossible 13 ",
+                desc: "A logic puzzle where you need to combine identical numbers and aim to reach the number 13. Connect groups of identical circles, think through your combinations, and use strategy to achieve your main goal!"
+            },
+            de: {
+                title: "Impossible 13 ",
+                desc: "Ein logisches Rätselspiel, bei dem man gleiche Zahlen zusammenführen muss, um die Zahl 13 zu erreichen. Verbinde Gruppen gleicher Kreise, überlege dir Kombinationen und setze deine Strategie ein, um das Hauptziel zu erreichen!"
+            },
+            fr: {
+                title: "Impossible 13 ",
+                desc: "Un casse-tête logique où il faut regrouper les nombres identiques afin d'obtenir le 13. Associez des groupes de cercles identiques, construisez des combinaisons et soyez un bon stratège pour atteindre l'objectif principal !"
+            },
+            it: {
+                title: "Impossible 13 ",
+                desc: "Un rompicapo logico dove devi unire numeri uguali per arrivare al numero 13. Unisci gruppi di cerchi uguali, studia le combinazioni e usa la strategia per raggiungere l’obiettivo principale!"
+            },
+            es: {
+                title: "Impossible 13 ",
+                desc: "Un rompecabezas lógico donde debes unir números iguales e intentar conseguir el número 13. ¡Une grupos de círculos iguales, piensa bien las combinaciones y utiliza una estrategia para alcanzar el objetivo principal!"
+            },
+            zh: {
+                title: "极限13挑战",
+                desc: "这是一款烧脑数字合成益智游戏！连接相同数字的圆圈，合并升级，不断组合策略，努力达成终极数字13。每一步都需要谨慎思考与策略规划，挑战你的逻辑极限！"
+            },
+            ja: {
+                title: "インポッシブル13",
+                desc: "同じ数字をつなげて「13」を目指すロジックパズル。同じ数字の円をつなげ、組み合わせを考えながら戦略的にプレイして、最終目標を達成しましょう！"
+            },
+            ko: {
+                title: "Impossible 13 ",
+                desc: "같은 숫자를 합쳐서 13을 완성해야 하는 두뇌 회전 퍼즐입니다. 같은 숫자의 원들을 묶고, 다양한 조합을 고민하며 전략을 세워 최종 목표를 달성하세요!"
+            }
+        }, {
+            index: 24,
+            name: "mages_secret",
+            rate: 12,
+            ru: {
+                title: "Секрет Мага",
+                desc: "Соединяй магических существ, усиливай заклинания и добывай ресурсы. Планируй каждый ход, чтобы открывать мощные артефакты и стать повелителем магии."
+            },
+            en: {
+                title: "The Magician's Secret",
+                desc: "Combine magical creatures, enhance spells, and gather resources. Plan each move to unlock powerful artifacts and become the master of magic."
+            },
+            de: {
+                title: "Das Geheimnis des Magiers",
+                desc: "Verbinde magische Wesen, verstärke Zaubersprüche und sammle Ressourcen. Plane jeden Zug sorgfältig, um mächtige Artefakte freizuschalten und zum Herrscher der Magie zu werden."
+            },
+            fr: {
+                title: "Le Secret du Mage",
+                desc: "Associez des créatures magiques, renforcez vos sorts et gagnez des ressources. Planifiez chaque coup pour débloquer de puissants artefacts et devenir le maître de la magie."
+            },
+            it: {
+                title: "Il segreto del mago",
+                desc: "Unisci creature magiche, potenzia gli incantesimi e raccogli risorse. Pianifica ogni mossa per sbloccare potenti artefatti e diventare il signore della magia."
+            },
+            es: {
+                title: "El secreto del mago",
+                desc: "Une criaturas mágicas, potencia hechizos y reúne recursos. Planifica cada movimiento para descubrir poderosos artefactos y convertirte en el amo de la magia."
+            },
+            zh: {
+                title: "魔法师的秘密",
+                desc: "合并魔法生物，强化你的法术能力，并不断获取资源。合理规划每一步操作，解锁强力神器，逐步成长为真正的魔法主宰。"
+            },
+            ja: {
+                title: "魔法使いの秘密",
+                desc: "魔法の生き物を合成し、呪文を強化して資源を集めましょう。一手一手を計画して強力なアーティファクトを解放し、偉大なる魔法使いを目指してください。"
+            },
+            ko: {
+                title: "마법사의 비밀",
+                desc: "마법 생물들을 결합해 주문을 강화하여 자원을 획득하세요. 신중하게 전략을 짜서 강력한 유물을 획득하고 대마법사로 거듭나 보세요."
             }
         }],
         n = location.pathname.match(/_(\w+)\.html$/),

@@ -1,0 +1,18 @@
+{
+  "advertisement": {
+    "useBuiltInErrorPopup": true,
+    "interstitial": {
+      "preloadOnStart": true
+    },
+    "rewarded": {
+      "preloadOnStart": true
+    }
+  },
+  "sendAnalyticsEvents": false,
+  "disableLoadingLogo": true,
+  "device": {
+    "supportedOrientations": [
+      "portrait"
+    ]
+  }
+}

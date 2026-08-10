@@ -1,0 +1,620 @@
+{
+	"all-time": {
+		"entries": [
+			{
+				"rank": 1,
+				"userId": "user123",
+				"username": "MasterPlayer",
+				"avatarUrl": "assets/images/avatars/avatar1.png",
+				"score": 9876,
+				"timestamp": 1623456789000
+			},
+			{
+				"rank": 2,
+				"userId": "user456",
+				"username": "ProGamer99ProGamer99 ProGamer99ProGamer99ProGamer99",
+				"avatarUrl": "assets/images/avatars/avatar2.png",
+				"score": 9654,
+				"timestamp": 1623356789000
+			},
+			{
+				"rank": 3,
+				"userId": "user789",
+				"username": "GameWizard",
+				"avatarUrl": "assets/images/avatars/avatar3.png",
+				"score": 9432,
+				"timestamp": 1623256789000
+			},
+			{
+				"rank": 4,
+				"userId": "user101",
+				"username": "PixelHero",
+				"avatarUrl": "assets/images/avatars/avatar4.png",
+				"score": 9321,
+				"timestamp": 1623156789000
+			},
+			{
+				"rank": 5,
+				"userId": "user202",
+				"username": "LevelMaster",
+				"avatarUrl": "assets/images/avatars/avatar5.png",
+				"score": 9210,
+				"timestamp": 1623056789000
+			},
+			{
+				"rank": 6,
+				"userId": "user303",
+				"username": "GameChampion",
+				"avatarUrl": "assets/images/avatars/avatar6.png",
+				"score": 9087,
+				"timestamp": 1622956789000
+			},
+			{
+				"rank": 7,
+				"userId": "user404",
+				"username": "ScoreKing",
+				"avatarUrl": "assets/images/avatars/avatar7.png",
+				"score": 8965,
+				"timestamp": 1622856789000
+			},
+			{
+				"rank": 8,
+				"userId": "user505",
+				"username": "HighScorer",
+				"avatarUrl": "assets/images/avatars/avatar8.png",
+				"score": 8854,
+				"timestamp": 1622756789000
+			},
+			{
+				"rank": 9,
+				"userId": "user606",
+				"username": "GameExpert",
+				"avatarUrl": "assets/images/avatars/avatar9.png",
+				"score": 8743,
+				"timestamp": 1622656789000
+			},
+			{
+				"rank": 10,
+				"userId": "user707",
+				"username": "TopPlayer",
+				"avatarUrl": "assets/images/avatars/avatar10.png",
+				"score": 8632,
+				"timestamp": 1622556789000
+			},
+			{
+				"rank": 11,
+				"userId": "user808",
+				"username": "GamerPro",
+				"avatarUrl": "assets/images/avatars/avatar11.png",
+				"score": 8521,
+				"timestamp": 1622456789000
+			},
+			{
+				"rank": 12,
+				"userId": "user909",
+				"username": "SkillMaster",
+				"avatarUrl": "assets/images/avatars/avatar12.png",
+				"score": 8410,
+				"timestamp": 1622356789000
+			},
+			{
+				"rank": 13,
+				"userId": "user1010",
+				"username": "GameStar",
+				"avatarUrl": "assets/images/avatars/avatar13.png",
+				"score": 8309,
+				"timestamp": 1622256789000
+			},
+			{
+				"rank": 14,
+				"userId": "user1111",
+				"username": "LeaderboardKing",
+				"avatarUrl": "assets/images/avatars/avatar14.png",
+				"score": 8198,
+				"timestamp": 1622156789000
+			},
+			{
+				"rank": 15,
+				"userId": "user1212",
+				"username": "PointsCollector",
+				"avatarUrl": "assets/images/avatars/avatar15.png",
+				"score": 8087,
+				"timestamp": 1622056789000
+			},
+			{
+				"rank": 16,
+				"userId": "user1313",
+				"username": "GameLegend",
+				"avatarUrl": "assets/images/avatars/avatar16.png",
+				"score": 7976,
+				"timestamp": 1621956789000
+			},
+			{
+				"rank": 17,
+				"userId": "user1414",
+				"username": "MasterGamer",
+				"avatarUrl": "assets/images/avatars/avatar17.png",
+				"score": 7865,
+				"timestamp": 1621856789000
+			},
+			{
+				"rank": 18,
+				"userId": "user1515",
+				"username": "ProPlayer",
+				"avatarUrl": "assets/images/avatars/avatar18.png",
+				"score": 7754,
+				"timestamp": 1621756789000
+			},
+			{
+				"rank": 19,
+				"userId": "user1616",
+				"username": "ScoreChaser",
+				"avatarUrl": "assets/images/avatars/avatar19.png",
+				"score": 7643,
+				"timestamp": 1621656789000
+			},
+			{
+				"rank": 20,
+				"userId": "user1717",
+				"username": "GameMaster",
+				"avatarUrl": "assets/images/avatars/avatar20.png",
+				"score": 7532,
+				"timestamp": 1621556789000
+			},
+			{
+				"rank": 42,
+				"userId": "currentUser",
+				"username": "YOU",
+				"avatarUrl": "assets/images/avatars/avatar_player.png",
+				"score": 5678,
+				"timestamp": 1620556789000
+			},
+			{
+				"rank": 40,
+				"userId": "user4040",
+				"username": "PlayerAboveYou1",
+				"avatarUrl": "assets/images/avatars/avatar40.png",
+				"score": 5890,
+				"timestamp": 1620756789000
+			},
+			{
+				"rank": 41,
+				"userId": "user4141",
+				"username": "PlayerAboveYou2",
+				"avatarUrl": "assets/images/avatars/avatar41.png",
+				"score": 5784,
+				"timestamp": 1620656789000
+			},
+			{
+				"rank": 43,
+				"userId": "user4343",
+				"username": "PlayerBelowYou1",
+				"avatarUrl": "assets/images/avatars/avatar43.png",
+				"score": 5567,
+				"timestamp": 1620456789000
+			},
+			{
+				"rank": 44,
+				"userId": "user4444",
+				"username": "PlayerBelowYou2",
+				"avatarUrl": "assets/images/avatars/avatar44.png",
+				"score": 5456,
+				"timestamp": 1620356789000
+			}
+		],
+		"playerRank": 42,
+		"totalPlayers": 1245
+	},
+	"monthly": {
+		"entries": [
+			{
+				"rank": 1,
+				"userId": "user505",
+				"username": "DailyChamp",
+				"avatarUrl": "assets/images/avatars/avatar8.png",
+				"score": 7654,
+				"timestamp": 1623456000000
+			},
+			{
+				"rank": 2,
+				"userId": "user202",
+				"username": "TodaysBest",
+				"avatarUrl": "assets/images/avatars/avatar5.png",
+				"score": 7543,
+				"timestamp": 1623455000000
+			},
+			{
+				"rank": 3,
+				"userId": "user909",
+				"username": "DayMaster",
+				"avatarUrl": "assets/images/avatars/avatar12.png",
+				"score": 7432,
+				"timestamp": 1623454000000
+			},
+			{
+				"rank": 4,
+				"userId": "user404",
+				"username": "HotStreak",
+				"avatarUrl": "assets/images/avatars/avatar7.png",
+				"score": 7321,
+				"timestamp": 1623453000000
+			},
+			{
+				"rank": 5,
+				"userId": "user1010",
+				"username": "DailyHero",
+				"avatarUrl": "assets/images/avatars/avatar13.png",
+				"score": 7210,
+				"timestamp": 1623452000000
+			},
+			{
+				"rank": 6,
+				"userId": "user707",
+				"username": "TodaysPro",
+				"avatarUrl": "assets/images/avatars/avatar10.png",
+				"score": 7109,
+				"timestamp": 1623451000000
+			},
+			{
+				"rank": 7,
+				"userId": "user1313",
+				"username": "DailyWinner",
+				"avatarUrl": "assets/images/avatars/avatar16.png",
+				"score": 6998,
+				"timestamp": 1623450000000
+			},
+			{
+				"rank": 8,
+				"userId": "user606",
+				"username": "TodaysChamp",
+				"avatarUrl": "assets/images/avatars/avatar9.png",
+				"score": 6887,
+				"timestamp": 1623449000000
+			},
+			{
+				"rank": 9,
+				"userId": "user1212",
+				"username": "DailyKing",
+				"avatarUrl": "assets/images/avatars/avatar15.png",
+				"score": 6776,
+				"timestamp": 1623448000000
+			},
+			{
+				"rank": 10,
+				"userId": "user303",
+				"username": "TodaysLegend",
+				"avatarUrl": "assets/images/avatars/avatar6.png",
+				"score": 6665,
+				"timestamp": 1623447000000
+			},
+			{
+				"rank": 11,
+				"userId": "user1111",
+				"username": "DailyExpert",
+				"avatarUrl": "assets/images/avatars/avatar14.png",
+				"score": 6554,
+				"timestamp": 1623446000000
+			},
+			{
+				"rank": 12,
+				"userId": "user808",
+				"username": "TodaysMaster",
+				"avatarUrl": "assets/images/avatars/avatar11.png",
+				"score": 6443,
+				"timestamp": 1623445000000
+			},
+			{
+				"rank": 13,
+				"userId": "user1414",
+				"username": "DailyPro",
+				"avatarUrl": "assets/images/avatars/avatar17.png",
+				"score": 6332,
+				"timestamp": 1623444000000
+			},
+			{
+				"rank": 14,
+				"userId": "user101",
+				"username": "TodaysWizard",
+				"avatarUrl": "assets/images/avatars/avatar4.png",
+				"score": 6221,
+				"timestamp": 1623443000000
+			},
+			{
+				"rank": 15,
+				"userId": "user1515",
+				"username": "DailyWizard",
+				"avatarUrl": "assets/images/avatars/avatar18.png",
+				"score": 6110,
+				"timestamp": 1623442000000
+			},
+			{
+				"rank": 16,
+				"userId": "user456",
+				"username": "TodaysHero",
+				"avatarUrl": "assets/images/avatars/avatar2.png",
+				"score": 5999,
+				"timestamp": 1623441000000
+			},
+			{
+				"rank": 17,
+				"userId": "user1616",
+				"username": "DailyMaster",
+				"avatarUrl": "assets/images/avatars/avatar19.png",
+				"score": 5888,
+				"timestamp": 1623440000000
+			},
+			{
+				"rank": 18,
+				"userId": "user789",
+				"username": "TodaysGamer",
+				"avatarUrl": "assets/images/avatars/avatar3.png",
+				"score": 5777,
+				"timestamp": 1623439000000
+			},
+			{
+				"rank": 19,
+				"userId": "user1717",
+				"username": "DailyPlayer",
+				"avatarUrl": "assets/images/avatars/avatar20.png",
+				"score": 5666,
+				"timestamp": 1623438000000
+			},
+			{
+				"rank": 20,
+				"userId": "user123",
+				"username": "TodaysKing",
+				"avatarUrl": "assets/images/avatars/avatar1.png",
+				"score": 5555,
+				"timestamp": 1623437000000
+			},
+			{
+				"rank": 7,
+				"userId": "currentUser",
+				"username": "YOU",
+				"avatarUrl": "assets/images/avatars/avatar_player.png",
+				"score": 6998,
+				"timestamp": 1623450000000
+			},
+			{
+				"rank": 5,
+				"userId": "user1010",
+				"username": "DailyHero",
+				"avatarUrl": "assets/images/avatars/avatar13.png",
+				"score": 7210,
+				"timestamp": 1623452000000
+			},
+			{
+				"rank": 6,
+				"userId": "user707",
+				"username": "TodaysPro",
+				"avatarUrl": "assets/images/avatars/avatar10.png",
+				"score": 7109,
+				"timestamp": 1623451000000
+			},
+			{
+				"rank": 8,
+				"userId": "user606",
+				"username": "TodaysChamp",
+				"avatarUrl": "assets/images/avatars/avatar9.png",
+				"score": 6887,
+				"timestamp": 1623449000000
+			},
+			{
+				"rank": 9,
+				"userId": "user1212",
+				"username": "DailyKing",
+				"avatarUrl": "assets/images/avatars/avatar15.png",
+				"score": 6776,
+				"timestamp": 1623448000000
+			}
+		],
+		"playerRank": 7,
+		"totalPlayers": 342
+	},
+	"weekly": {
+		"entries": [
+			{
+				"rank": 1,
+				"userId": "user1414",
+				"username": "WeeklyChamp",
+				"avatarUrl": "assets/images/avatars/avatar17.png",
+				"score": 8765,
+				"timestamp": 1623356000000
+			},
+			{
+				"rank": 2,
+				"userId": "user789",
+				"username": "WeeklyPro",
+				"avatarUrl": "assets/images/avatars/avatar3.png",
+				"score": 8654,
+				"timestamp": 1623256000000
+			},
+			{
+				"rank": 3,
+				"userId": "user1515",
+				"username": "WeeklyMaster",
+				"avatarUrl": "assets/images/avatars/avatar18.png",
+				"score": 8543,
+				"timestamp": 1623156000000
+			},
+			{
+				"rank": 4,
+				"userId": "user456",
+				"username": "WeeklyWizard",
+				"avatarUrl": "assets/images/avatars/avatar2.png",
+				"score": 8432,
+				"timestamp": 1623056000000
+			},
+			{
+				"rank": 5,
+				"userId": "user1616",
+				"username": "WeeklyHero",
+				"avatarUrl": "assets/images/avatars/avatar19.png",
+				"score": 8321,
+				"timestamp": 1622956000000
+			},
+			{
+				"rank": 6,
+				"userId": "user123",
+				"username": "WeeklyKing",
+				"avatarUrl": "assets/images/avatars/avatar1.png",
+				"score": 8210,
+				"timestamp": 1622856000000
+			},
+			{
+				"rank": 7,
+				"userId": "user1717",
+				"username": "WeeklyLegend",
+				"avatarUrl": "assets/images/avatars/avatar20.png",
+				"score": 8109,
+				"timestamp": 1622756000000
+			},
+			{
+				"rank": 8,
+				"userId": "user808",
+				"username": "WeeklyExpert",
+				"avatarUrl": "assets/images/avatars/avatar11.png",
+				"score": 7998,
+				"timestamp": 1622656000000
+			},
+			{
+				"rank": 9,
+				"userId": "user1111",
+				"username": "WeeklyGamer",
+				"avatarUrl": "assets/images/avatars/avatar14.png",
+				"score": 7887,
+				"timestamp": 1622556000000
+			},
+			{
+				"rank": 10,
+				"userId": "user505",
+				"username": "WeeklyPlayer",
+				"avatarUrl": "assets/images/avatars/avatar8.png",
+				"score": 7776,
+				"timestamp": 1622456000000
+			},
+			{
+				"rank": 11,
+				"userId": "user1212",
+				"username": "WeeklyScorer",
+				"avatarUrl": "assets/images/avatars/avatar15.png",
+				"score": 7665,
+				"timestamp": 1622356000000
+			},
+			{
+				"rank": 12,
+				"userId": "user202",
+				"username": "WeeklyChampion",
+				"avatarUrl": "assets/images/avatars/avatar5.png",
+				"score": 7554,
+				"timestamp": 1622256000000
+			},
+			{
+				"rank": 13,
+				"userId": "user909",
+				"username": "WeeklyWinner",
+				"avatarUrl": "assets/images/avatars/avatar12.png",
+				"score": 7443,
+				"timestamp": 1622156000000
+			},
+			{
+				"rank": 14,
+				"userId": "user404",
+				"username": "WeeklyBest",
+				"avatarUrl": "assets/images/avatars/avatar7.png",
+				"score": 7332,
+				"timestamp": 1622056000000
+			},
+			{
+				"rank": 15,
+				"userId": "user1010",
+				"username": "WeeklyMaster",
+				"avatarUrl": "assets/images/avatars/avatar13.png",
+				"score": 7221,
+				"timestamp": 1621956000000
+			},
+			{
+				"rank": 16,
+				"userId": "user707",
+				"username": "WeeklyPro",
+				"avatarUrl": "assets/images/avatars/avatar10.png",
+				"score": 7110,
+				"timestamp": 1621856000000
+			},
+			{
+				"rank": 17,
+				"userId": "user1313",
+				"username": "WeeklyHero",
+				"avatarUrl": "assets/images/avatars/avatar16.png",
+				"score": 6999,
+				"timestamp": 1621756000000
+			},
+			{
+				"rank": 18,
+				"userId": "user606",
+				"username": "WeeklyWizard",
+				"avatarUrl": "assets/images/avatars/avatar9.png",
+				"score": 6888,
+				"timestamp": 1621656000000
+			},
+			{
+				"rank": 19,
+				"userId": "user303",
+				"username": "WeeklyKing",
+				"avatarUrl": "assets/images/avatars/avatar6.png",
+				"score": 6777,
+				"timestamp": 1621556000000
+			},
+			{
+				"rank": 20,
+				"userId": "user101",
+				"username": "WeeklyLegend",
+				"avatarUrl": "assets/images/avatars/avatar4.png",
+				"score": 6666,
+				"timestamp": 1621456000000
+			},
+			{
+				"rank": 15,
+				"userId": "currentUser",
+				"username": "YOU",
+				"avatarUrl": "assets/images/avatars/avatar_player.png",
+				"score": 7221,
+				"timestamp": 1621956000000
+			},
+			{
+				"rank": 13,
+				"userId": "user909",
+				"username": "WeeklyWinner",
+				"avatarUrl": "assets/images/avatars/avatar12.png",
+				"score": 7443,
+				"timestamp": 1622156000000
+			},
+			{
+				"rank": 14,
+				"userId": "user404",
+				"username": "WeeklyBest",
+				"avatarUrl": "assets/images/avatars/avatar7.png",
+				"score": 7332,
+				"timestamp": 1622056000000
+			},
+			{
+				"rank": 16,
+				"userId": "user707",
+				"username": "WeeklyPro",
+				"avatarUrl": "assets/images/avatars/avatar10.png",
+				"score": 7110,
+				"timestamp": 1621856000000
+			},
+			{
+				"rank": 17,
+				"userId": "user1313",
+				"username": "WeeklyHero",
+				"avatarUrl": "assets/images/avatars/avatar16.png",
+				"score": 6999,
+				"timestamp": 1621756000000
+			}
+		],
+		"playerRank": 15,
+		"totalPlayers": 587
+	}
+}

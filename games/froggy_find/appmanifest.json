@@ -1,0 +1,11 @@
+{
+	"name": "Froggy find",
+	"short_name": "Froggy find",
+	"description": "",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"background_color": "#f0f0f0",
+	"icons": [],
+	"screenshots": []
+}

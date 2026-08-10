@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "22881358549",
+    "project_id": "find-the-pets",
+    "storage_bucket": "find-the-pets.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22881358549:android:e095ce1ebca51e8fc5885c",
+        "android_client_info": {
+          "package_name": "com.shepelev.FindThePets"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvZw9rG8Aih-QWGRh9vQCZjfoIHieM4IY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
