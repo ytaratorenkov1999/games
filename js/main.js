@@ -971,7 +971,7 @@
             }
         }, {
             index: 23,
-            name: "Impossible_13",
+            name: "impossible_13",
             rate: 6,
             ru: {
                 title: "Impossible 13 ",
